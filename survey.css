@@ -43,16 +43,19 @@ input::placeholder{
 input[type=text]{
     width: 95%;
     padding: 6px 12px;
+    font-family: 'Poppins', sans-serif;
 }
 
 input[type=number]{
     width: 95%;
     padding: 6px 12px;
+    font-family: 'Poppins', sans-serif;
 }
 
 input[type=email]{
     width: 95%;
     padding: 6px 12px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #comment{
