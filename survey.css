@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/24/23/44/hands-5216585_960_720.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.italic{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container{
+    
+    justify-content: center;
+}
+
+.sub-div{
+   background-color:rgba(13, 26, 94, 0.8);
+   width: 50%;
+   padding: 30px;
+   margin:auto;
+   border-radius: 5px;
+}
+
+input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+input[type=text]{
+    width: 95%;
+    padding: 6px 12px;
+}
+
+input[type=number]{
+    width: 95%;
+    padding: 6px 12px;
+}
+
+input[type=email]{
+    width: 95%;
+    padding: 6px 12px;
+}
+
+#comment{
+    width: 95%;
+    padding: 6px 12px; 
+}
+
+button[type=button]{
+    width: 99%;
+    padding: 6px 12px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #37AF65;
+}
+.label{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    width: 99%;
+    padding: 6px 12px; 
+}
+.label select{
+    display: none;
+    
+}
